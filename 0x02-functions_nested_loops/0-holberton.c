@@ -3,7 +3,7 @@
  *main -Print Holberton
  *
  *
- *
+ *Return 0
  */
 
 int main(void)
