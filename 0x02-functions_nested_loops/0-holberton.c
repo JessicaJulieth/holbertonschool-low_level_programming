@@ -2,8 +2,8 @@
 /**
  * main - Print Holberton
  * @void: Parameter of list
- *
- * Return 0
+ * Descripction: Prints Holberton whith holberton.h
+ * Return: 0
 */
 
 int main(void)
