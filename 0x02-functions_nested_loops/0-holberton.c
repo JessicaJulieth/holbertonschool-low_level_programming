@@ -1,10 +1,10 @@
 #include "holberton.h"
 /*
- *main -Print Holberton
+ * main - Print Holberton
+ * @void: Parameter of list
  *
- *
- *Return 0
- */
+ * Return 0
+*/
 
 int main(void)
 {
