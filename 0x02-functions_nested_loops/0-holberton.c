@@ -1,5 +1,5 @@
 #include "holberton.h"
-/*
+/**
  * main - Print Holberton
  * @void: Parameter of list
  *
