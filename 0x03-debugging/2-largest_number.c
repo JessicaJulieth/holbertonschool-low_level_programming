@@ -24,6 +24,11 @@ int largest_number(int a, int b, int c)
 	{
 		largest = c;
 	}
+	if (c > 792)
+	     {
+
+		     largest = a;
+	     }
 
 	return (largest);
 }
