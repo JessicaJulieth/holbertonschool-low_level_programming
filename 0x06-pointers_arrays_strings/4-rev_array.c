@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * reverse_array - Function that reverses the content of an array of integer.
+ * reverse_array - Reverses the content of an array of integers.
  * @Pointer_Start: Pointer to array type int.
  * @Size_Array: Size Array.
  */
