@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strcmp - Function that compares two strings.
+ * _strcmp - Compares two strings.
  * @s1: Character string to compare with s2.
  * @s2: Character string to compare with s1.
  * Return: Return the difference.
