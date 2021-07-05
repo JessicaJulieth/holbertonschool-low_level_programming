@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * cap_string - Function that capitalizes all words of a string.
+ * cap_string - Capitalizes all words of a string.
  * @s: Stores the character string that is modified.
  * Return: We return the start of the string.
  */
