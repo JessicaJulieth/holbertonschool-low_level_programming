@@ -1,7 +1,7 @@
 /**
- * _strspn - gets the length of a prefix substring.
- * @s: ponter to a string
- * @accept: pointer to a string
+ * _strspn - gets the length of a prefix substring
+ * @s: pointer to char array
+ * @accept: pointer characters to find
  * Return: count
  */
 
