@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * _puts_recursion - Function that prints a string, followed by a new line.
- * @ArrayCharacter: Character string to be printed.
+ * _puts_recursion - Prints a string
+ * @s: Character string to be printed.
  */
 
 void _puts_recursion(char *s)
