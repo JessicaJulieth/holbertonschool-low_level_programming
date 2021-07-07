@@ -1,9 +1,10 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- *
- *
- *
+ * print_diagsums - Print diagonal sums
+ * @a: pointer variable
+ * @size: sizeof matrix
+ * Return: none
  */
 void print_diagsums(int *a, int size)
 
@@ -21,10 +22,10 @@ void print_diagsums(int *a, int size)
 	{
 		s1 = s1 + a[c];
 	}
-	for (c = size -1; c < z; c += size -1)
+	for (c = size - 1; c < z; c += size - 1)
 	{
 
 		s2 = s2 + a[c];
 	}
-	printf ("%d, %d \n", s1, s2);
+	printf("%d, %d \n", s1, s2);
 }
