@@ -20,12 +20,12 @@ void print_diagsums(int *a, int size)
 	for (c = 0; c < z; c += size + 1)
 
 	{
-		s1 = s1 + a[c];
+		s1 += a[c];
 	}
-	for (c = size - 1; c < z; c += size - 1)
+	for (c = size - 1; c < z - 1; c += size - 1)
 	{
 
-		s2 = s2 + a[c];
+		s2 += a[c];
 	}
 	printf("%d, %d \n", s1, s2);
 }
