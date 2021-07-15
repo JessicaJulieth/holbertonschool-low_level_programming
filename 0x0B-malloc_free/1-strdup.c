@@ -1,32 +1,32 @@
-#include <stdlib.h>
-#include <stdio.h>
 #include "holberton.h"
+#include <stdlib.h>
 /**
- * _strdup - contains a copy of the string given as a parameter
- * @str: string type char
- * Return: p Success or NULL Fail
+ * _strdup - Copy of a string
+ * @str: String
+ * Return: p (Success) NULL (Fail)
  */
 char *_strdup(char *str)
 {
-	unsigned int x, y;
-	char *p;
+	unsigned int x, y, length;
+	char *p = NULL;
 
 	if (str == NULL)
-	{
 		return (NULL);
+
+	length = 0;
+
+	for (x = 0; str[x] != '\0'; x++)
+		length++;
+
+	p = malloc((length + 1) * sizeof(char));
+
+	if (p == NULL)
+		return (NULL);
+
+	for (y = 0; y <= length; y++)
+	{
+		p[y] = str[y];
 	}
 
-	for (x = 0; *(str + x); x++)
-	{
-	p = malloc(sizeof(char) * (x + 1));
-	}
-	if (p == NULL)
-	{
-		return (NULL);
-	}
-	for (y = 0; y <= x ; y++)
-	{
-		*(p + y) = *(str + y);
-	}
 	return (p);
 }
