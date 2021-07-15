@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * strtow - splits strings to words
- * @str: string 
+ * @str: string
  * Return: pointer to an array of words
  */
 
