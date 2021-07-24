@@ -6,8 +6,8 @@
 /**
  * struct x - Struct X
  *
- * @Ch: The Calificador
- * @Point: Pointer
+ * @ch: The Calificador
+ * @point: Pointer
  */
 typedef struct x
 {
