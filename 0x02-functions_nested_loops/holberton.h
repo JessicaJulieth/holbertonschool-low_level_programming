@@ -1,5 +1,6 @@
 #ifndef Holberton
 #define Holberton
+#include <stdio.h>
 
 int _putchar(char c);
 void print_alphabet(void);
