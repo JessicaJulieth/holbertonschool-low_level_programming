@@ -9,18 +9,13 @@
 
 size_t print_listint(const listint_t *h)
 {
-size_t i;
-for (i = 0; h != NULL; i++)
-{
-if (h->str == NULL)
-{
-printf("[0] (nil");
-}
-else
-{
-printf("[%i] %s, h->len, h->str");
-}
-h = h->next;
-}
-return (i);
+	size_t i = 0;
+
+	while (h != NULL)
+	{
+		printf("%i\n", h->n);
+		h = h->next;
+		i++;
+	}
+	return (i);
 }
