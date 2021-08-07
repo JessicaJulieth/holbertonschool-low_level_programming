@@ -2,9 +2,9 @@
 
 /**
  * binary_to_uint - Converts a binary number to an unsigned int
- * @b
- * 
- * Return: The converted number, or 0 if there is one or 
+ * @b: POinter
+ *
+ * Return: The converted number, or 0 if there is one or
  * more chars in the string b that is not 0 or 1 b is NULL
  */
 
